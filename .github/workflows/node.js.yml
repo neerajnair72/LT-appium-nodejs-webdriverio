@@ -26,7 +26,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         
-    - run: export LT_USERNAME=neerajn 
-    - run: export LT_ACCESS_KEY=J3zIzXZfnxcFZDjaG5SmRb9cIUjoRtjzcX5fPsQcWxVkxBX3Lf
     - run: npm i
     - run: npm run singleAndroid
