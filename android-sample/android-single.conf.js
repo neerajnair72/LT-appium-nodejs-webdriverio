@@ -1,6 +1,6 @@
 exports.config = {
-  user: process.env.LT_USERNAME || "YOUR_USERNAME",
-  key: process.env.LT_ACCESS_KEY || "YOUR_ACCESS_KEY",
+  user: process.env.LT_USERNAME || "neerajn",
+  key: process.env.LT_ACCESS_KEY || "J3zIzXZfnxcFZDjaG5SmRb9cIUjoRtjzcX5fPsQcWxVkxBX3Lf",
 
   updateJob: false,
   specs: ["specs/android-test.js"],
